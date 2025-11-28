@@ -1,0 +1,54 @@
+# Unreal Engine Git Ignore
+
+# Binaries
+Binaries/
+
+# Intermediate build files
+Intermediate/
+DerivedDataCache/
+DerivedDataCache/*
+
+# Saved
+Saved/
+
+# Build output
+Build/
+build/
+
+# Visual Studio
+.vs/
+*.sln
+*.suo
+*.user
+*.userprefs
+*.VC.db
+*.VC.opendb
+
+# Mac files
+*.DS_Store
+
+# Auto-generated project files
+*.opensdf
+*.sdf
+*.suo
+
+# Cache
+*.pdb
+*.ipch
+*.obj
+
+# UBT
+*.target
+*.ubt
+*.log
+*.modmap
+
+# Plugin binaries
+Plugins/*/Intermediate/
+Plugins/*/Binaries/
+
+# Backup
+Backup/
+
+# Other
+.vscode/
